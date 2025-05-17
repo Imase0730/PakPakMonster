@@ -139,21 +139,23 @@
   <!-- ファイル -->
   <ItemGroup>
     <!-- プリコンパイル済みヘッダー -->
-    <ClCompile Include="GameplayScene\GameplayScene.cpp" />
-    <ClCompile Include="GameplayScene\Monster.cpp" />
-    <ClCompile Include="GameplayScene\Player.cpp" />
-    <ClCompile Include="GameplayScene\Stage.cpp" />
+    <ClCompile Include="Game\GameplayScene\GameplayScene.cpp" />
+    <ClCompile Include="Game\GameplayScene\Monster.cpp" />
+    <ClCompile Include="Game\GameplayScene\Player.cpp" />
+    <ClCompile Include="Game\GameplayScene\Stage.cpp" />
+    <ClCompile Include="Game\ResultScene\ResultScene.cpp" />
+    <ClCompile Include="Game\TitleScene\TitleScene.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>
-    <ClInclude Include="GameplayScene\GameplayScene.h" />
-    <ClInclude Include="GameplayScene\Monster.h" />
-    <ClInclude Include="GameplayScene\Player.h" />
-    <ClInclude Include="GameplayScene\Stage.h" />
     <ClInclude Include="Game\Common.h" />
+    <ClInclude Include="Game\GameplayScene\GameplayScene.h" />
+    <ClInclude Include="Game\GameplayScene\Monster.h" />
+    <ClInclude Include="Game\GameplayScene\Player.h" />
+    <ClInclude Include="Game\GameplayScene\Stage.h" />
+    <ClInclude Include="Game\ResultScene\ResultScene.h" />
+    <ClInclude Include="Game\TitleScene\TitleScene.h" />
     <ClInclude Include="pch.h" />
-    <ClCompile Include="ResultScene\ResultScene.cpp" />
-    <ClCompile Include="TitleScene\TitleScene.cpp" />
     <!-- メイン -->
     <ClCompile Include="WinMain.cpp" />
     <!-- ゲーム -->
@@ -168,8 +170,6 @@
     <ClInclude Include="Library\MemoryLeakDetector.h" />
     <!-- 埋め込みリソース -->
     <ClInclude Include="EmbeddedResources\Resource.h" />
-    <ClInclude Include="ResultScene\ResultScene.h" />
-    <ClInclude Include="TitleScene\TitleScene.h" />
     <ResourceCompile Include="EmbeddedResources\Resource.rc" />
     <Image Include="EmbeddedResources\Icon\Game.ico" />
     <None Include="packages.config" />

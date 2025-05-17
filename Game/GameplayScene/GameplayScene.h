@@ -6,8 +6,8 @@
 
 #include "Game/Screen.h"
 #include "Stage.h"
-#include "GameplayScene/Player.h"
-#include "GameplayScene/Monster.h"
+#include "Player.h"
+#include "Monster.h"
 
 // ƒNƒ‰ƒX‚Ì‘O•ûéŒ¾
 class Game;

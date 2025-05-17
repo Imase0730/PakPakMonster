@@ -87,46 +87,46 @@
     <Image Include="Resources\Textures\TridentLogo.png">
       <Filter>Resources\Textures</Filter>
     </Image>
-    <ClCompile Include="TitleScene\TitleScene.cpp">
-      <Filter>Game\TitleScene</Filter>
-    </ClCompile>
-    <ClCompile Include="GameplayScene\GameplayScene.cpp">
+    <ClCompile Include="Game\GameplayScene\GameplayScene.cpp">
       <Filter>Game\GamePlayScene</Filter>
     </ClCompile>
-    <ClCompile Include="GameplayScene\Monster.cpp">
+    <ClCompile Include="Game\GameplayScene\Monster.cpp">
       <Filter>Game\GamePlayScene</Filter>
     </ClCompile>
-    <ClCompile Include="GameplayScene\Player.cpp">
+    <ClCompile Include="Game\GameplayScene\Player.cpp">
       <Filter>Game\GamePlayScene</Filter>
     </ClCompile>
-    <ClCompile Include="GameplayScene\Stage.cpp">
+    <ClCompile Include="Game\GameplayScene\Stage.cpp">
       <Filter>Game\GamePlayScene</Filter>
     </ClCompile>
-    <ClCompile Include="ResultScene\ResultScene.cpp">
+    <ClCompile Include="Game\ResultScene\ResultScene.cpp">
       <Filter>Game\ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TitleScene\TitleScene.cpp">
+      <Filter>Game\TitleScene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game\Common.h">
       <Filter>Game</Filter>
     </ClInclude>
-    <ClInclude Include="TitleScene\TitleScene.h">
-      <Filter>Game\TitleScene</Filter>
-    </ClInclude>
-    <ClInclude Include="GameplayScene\GameplayScene.h">
+    <ClInclude Include="Game\GameplayScene\GameplayScene.h">
       <Filter>Game\GamePlayScene</Filter>
     </ClInclude>
-    <ClInclude Include="GameplayScene\Monster.h">
+    <ClInclude Include="Game\GameplayScene\Monster.h">
       <Filter>Game\GamePlayScene</Filter>
     </ClInclude>
-    <ClInclude Include="GameplayScene\Player.h">
+    <ClInclude Include="Game\GameplayScene\Player.h">
       <Filter>Game\GamePlayScene</Filter>
     </ClInclude>
-    <ClInclude Include="GameplayScene\Stage.h">
+    <ClInclude Include="Game\GameplayScene\Stage.h">
       <Filter>Game\GamePlayScene</Filter>
     </ClInclude>
-    <ClInclude Include="ResultScene\ResultScene.h">
+    <ClInclude Include="Game\ResultScene\ResultScene.h">
       <Filter>Game\ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TitleScene\TitleScene.h">
+      <Filter>Game\TitleScene</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
